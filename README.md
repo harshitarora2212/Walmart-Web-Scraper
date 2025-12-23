@@ -7,7 +7,7 @@
 - Optimized task scheduling to keep all threads busy
 - Significantly faster than sequential scraping
 
----
+--
 
 ### 📊 Comprehensive Product Data Extraction
 - Product title and brand  
@@ -20,7 +20,7 @@
 - Product description and canonical URL  
 - GTIN / Model identifiers (where available)  
 
----
+--
 
 ### 🗺️ Multi-ZIP Code Support
 - Scrape the same product across multiple ZIP codes
@@ -28,7 +28,7 @@
 - Each ZIP code runs in an isolated browser profile
 - Easy configuration for adding or removing ZIP codes
 
----
+--
 
 ### 🧠 Intelligent Scraping Design
 - Uses **Undetected ChromeDriver** to reduce bot detection
@@ -37,7 +37,7 @@
 - Thread-safe CSV writing to avoid data corruption
 - Resume capability using container CSVs if execution is interrupted
 
----
+--
 
 ### 📁 Structured Output
 - Intermediate data stored as CSV (thread-safe)
@@ -48,8 +48,6 @@
   - Reviews
   - Variations (if enabled)
 - Cleaned and deduplicated records
-
----
 
 ## ⚠️ Important Notes
 
